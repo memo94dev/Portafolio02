@@ -37,8 +37,12 @@ main{
         }
     }
     #inicio{
+        background-image: url(./images/profile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100vh;
         height: 100vh;
+        }
         h1{
             font-size: 3em;
         }
@@ -55,13 +59,22 @@ main{
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        div{
+        .cotenedor-portafolio{
+            text-align: center;
             width: 250px;
             height: 280px;
             border: 1px solid lightgray;
             margin: 15px;
             &:hover{
                 border: 1px solid rgb(231, 231, 231);
+            }
+            img{
+                width: 150px;
+                height: 180px;
+                margin: 5px;
+                &:hover{
+                    opacity: 0.8;
+                }
             }
         }
     }
