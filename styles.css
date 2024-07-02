@@ -24,9 +24,27 @@ header{
     }
 }
 main{
+    button{
+        position: fixed;
+        right: 10px;
+        bottom: 20px;
+        width: 30px;
+        height: 30px;
+        font-size: 2em;
+        border-radius: 50%;
+        a{
+            text-decoration: none;
+        }
+    }
     #inicio{
         width: 100vh;
         height: 100vh;
+        h1{
+            font-size: 3em;
+        }
+        p{
+            font-size: 1.5em;
+        }
     }
     #sobre-mi{
         width: 100vh;
