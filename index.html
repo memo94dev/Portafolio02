@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
-
 <body>
     <header>
+        <div>
+            <p>GB</p>
+        </div>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -22,11 +24,12 @@
     <main>
         <button><a href="#inicio">^</a></button>
         <section id="inicio">
+            <div class="caja-izquierda">
             <h1>Guillermo Barrientos</h1>
             <p>¡Hola! Mi nombre es Guillermo Barrientos.. y soy un apasionado tester de calidad (QA) con una sólida
                 experiencia de más de dos años en la industria. Actualmente trabajo para una consultora donde desempeño
                 múltiples roles, desde la realización de pruebas de calidad hasta la implementación y capacitación de
-                sistemas, así como brindar soporte técnico a los usuarios.</p>
+                sistemas, así como brindar soporte técnico a los usuarios.</p><br>
             <p>Como estudiante, estoy en el segundo año de la carrera de Análisis de Sistemas Informáticos en la <a
                     href="https://www.utic.edu.py/v7/">Universidad Teconológica Intercontinental - UTIC</a>, reforzando
                 mis habilidades con el curso de
@@ -34,13 +37,18 @@
                 estado
                 desarrollando algunas páginas web las cuales tengo mas abajo en mi <a href="#portafolio">Portafolio</a>
                 profesional.</p>
+            </div>
+            <div class="caja-derecha">
+                <img src="./images/perfil.png" alt="perfil personal">
+            <a class="btn-cv" href="./docs/GUILLERMO BARRIENTOS CV.pdf" download="CV Guillermo Barrientos">Descargar CV</a>
+            </div>
         </section>
         <section id="sobre-mi">
             <ul>
                 <li>
                     <h2>Experiencia Profesional</h2>
                 </li>
-                <details>
+                <details open name="sobremi">
                     <summary>Tester de Calidad (QA)</summary>
                     <p><span>(enero/2023 - Actualidad)</span><br>
                         • Responsabilidades: <br>
@@ -65,11 +73,13 @@
                 <li>
                     <h2>Educación y Desarrollo Profesional</h2>
                 </li>
-                <details>
+                <details name="sobremi">
                     <summary>Actualmente</summary>
-                    <p>Estoy ampliando mis habilidades en el campo del desarrollo web, estudiando las tecnologías
-                        más actualizadas.
-                        Realizando el curso de Desarrollador Web del Grupo IDT de manera online.</p>
+                    <p>Estudiante del segundo año de la carrera de Análisis de Sistemas Informáticos. Ampliando mis
+                        habilidades en el
+                        campo del desarrollo web, estudiando las tecnologías
+                        más actualizadas;
+                        realizando el curso de Desarrollador Web del Grupo IDT de manera online.</p>
                 </details>
                 <details>
                     <summary>Objetivos Profesionales</summary>
@@ -83,53 +93,66 @@
         <section id="portafolio">
             <div class="cotenedor-portafolio">
                 <h2>Página 1</h2>
-                <div><a href="https://memo94dev.github.io/socialinks/"><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="https://memo94dev.github.io/socialinks/"><img src="./images/anotador.jpg"
+                            alt="portada de pagina web"></a></div>
                 <p><a href="https://memo94dev.github.io/socialinks/">ver más..</a></p>
             </div>
             <div class="cotenedor-portafolio">
                 <h2>Página 2</h2>
-                <div><a href=""><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="#"><img src="./images/anotador.jpg" alt="portada de pagina web"></a></div>
                 <p><a href="#">ver más..</a></p>
             </div>
             <div class="cotenedor-portafolio">
                 <h2>Página 3</h2>
-                <div><a href=""><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="#"><img src="./images/anotador.jpg" alt="portada de pagina web"></a></div>
                 <p><a href="#">ver más..</a></p>
             </div>
             <div class="cotenedor-portafolio">
                 <h2>Página 4</h2>
-                <div><a href=""><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="#"><img src="./images/anotador.jpg" alt="portada de pagina web"></a></div>
                 <p><a href="#">ver más..</a></p>
             </div>
             <div class="cotenedor-portafolio">
                 <h2>Página 5</h2>
-                <div><a href=""><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="#"><img src="./images/anotador.jpg" alt="portada de pagina web"></a></div>
                 <p><a href="#">ver más..</a></p>
             </div>
             <div class="cotenedor-portafolio">
                 <h2>Página 6</h2>
-                <div><a href=""><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="#"><img src="./images/anotador.jpg" alt="portada de pagina web"></a></div>
                 <p><a href="#">ver más..</a></p>
             </div>
             <div class="cotenedor-portafolio">
                 <h2>Página 7</h2>
-                <div><a href=""><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="#"><img src="./images/anotador.jpg" alt="portada de pagina web"></a></div>
                 <p><a href="#">ver más..</a></p>
             </div>
             <div class="cotenedor-portafolio">
                 <h2>Página 8</h2>
-                <div><a href=""><img src="./images/hoja.jpg" alt="portada de pagina web"></a></div>
+                <div><a href="#"><img src="./images/anotador.jpg" alt="portada de pagina web"></a></div>
                 <p><a href="#">ver más..</a></p>
             </div>
         </section>
-        <section id="contacto"></section>
+        <section id="contacto">
+            <div class="caja-uno">
+
+            </div>
+            <div class="caja-dos">
+                <div class="contenedor-social">1</div>
+                <div class="contenedor-social">2</div>
+                <div class="contenedor-social">3</div>
+                <div class="contenedor-social">4</div>
+            </div>
+        </section>
     </main>
     <footer>
-        <ul>
+        <p>&copy; Asunción - Paraguay</p>
+        <p><a href="mailto://guille.work.94@gmail.com">guille.work.94@gmail.com</a></p>
+        <!-- <ul>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
-        </ul>
+        </ul> -->
     </footer>
 </body>
 
