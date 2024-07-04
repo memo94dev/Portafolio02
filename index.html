@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -25,22 +26,28 @@
         <button><a href="#inicio">^</a></button>
         <section id="inicio">
             <div class="caja-izquierda">
-            <h1>Guillermo Barrientos</h1>
-            <p>¡Hola! Mi nombre es Guillermo Barrientos.. y soy un apasionado tester de calidad (QA) con una sólida
-                experiencia de más de dos años en la industria. Actualmente trabajo para una consultora donde desempeño
-                múltiples roles, desde la realización de pruebas de calidad hasta la implementación y capacitación de
-                sistemas, así como brindar soporte técnico a los usuarios.</p><br>
-            <p>Como estudiante, estoy en el segundo año de la carrera de Análisis de Sistemas Informáticos en la <a
-                    href="https://www.utic.edu.py/v7/">Universidad Teconológica Intercontinental - UTIC</a>, reforzando
-                mis habilidades con el curso de
-                Desarrollo Web en el <a href="https://www.idt.com.py/">Instituto de Diseño y Tecnología - IDT</a>; he
-                estado
-                desarrollando algunas páginas web las cuales tengo mas abajo en mi <a href="#portafolio">Portafolio</a>
-                profesional.</p>
+                <h1>Guillermo Barrientos</h1>
+                <p>¡Hola! Mi nombre es Guillermo Barrientos.. y soy un apasionado tester de calidad (QA) con una sólida
+                    experiencia de más de dos años en la industria. Actualmente trabajo para una consultora donde
+                    desempeño
+                    múltiples roles, desde la realización de pruebas de calidad hasta la implementación y capacitación
+                    de
+                    sistemas, así como brindar soporte técnico a los usuarios.</p><br>
+                <p>Como estudiante, estoy en el segundo año de la carrera de Análisis de Sistemas Informáticos en la <a
+                        href="https://www.utic.edu.py/v7/">Universidad Teconológica Intercontinental - UTIC</a>,
+                    reforzando
+                    mis habilidades con el curso de
+                    Desarrollo Web en el <a href="https://www.idt.com.py/">Instituto de Diseño y Tecnología - IDT</a>;
+                    he
+                    estado
+                    desarrollando algunas páginas web las cuales tengo mas abajo en mi <a
+                        href="#portafolio">Portafolio</a>
+                    profesional.</p>
             </div>
             <div class="caja-derecha">
                 <img src="./images/perfil.png" alt="perfil personal">
-            <a class="btn-cv" href="./docs/GUILLERMO BARRIENTOS CV.pdf" download="CV Guillermo Barrientos">Descargar CV</a>
+                <a class="btn-cv" href="./docs/GUILLERMO BARRIENTOS CV.pdf" download="CV Guillermo Barrientos">Descargar
+                    CV</a>
             </div>
         </section>
         <section id="sobre-mi">
@@ -135,7 +142,24 @@
         </section>
         <section id="contacto">
             <div class="caja-uno">
-
+                <form class="formulario" action="https://formsubmit.co/guille.work.94@gmail.com" method="post">
+                    <label for="in-name">Nombre / Empresa:</label>
+                    <input required maxlength="30" id="in-name" name="name" type="text"><br><br>
+                    <label for="in-email">Correo:</label>
+                    <input required maxlength="30" id="in-email" name="mail" type="email"><br><br>
+                    <label for="in-afaire">Asunto:</label>
+                    <select required id="in-afaire" name="afaire" type="text">
+                    <option>Laboral</option>
+                    <option>Personal</option>
+                    <option>Otras</option>
+                   </select><br><br>
+                    <label for="in-message">Mensaje:</label>
+                    <textarea autocomplete="on" cols="50" rows="3" required id="in-message" name="message" required maxlength="120"></textarea><br><br>
+                    <div>
+                        <input class="btn-res" id="in-reset" name="reset" type="reset" value="Limpiar">
+                        <input class="btn-in" id="in-send" name="send" type="submit" value="Enviar">
+                    </div>
+                </form>
             </div>
             <div class="caja-dos">
                 <div class="contenedor-social">1</div>

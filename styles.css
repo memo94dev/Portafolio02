@@ -236,6 +236,36 @@ main {
 
         .caja-uno {
             width: 50%;
+            text-align: center;
+            align-content: center;
+            .formulario{
+                font-size: 2em;
+                textarea{
+                    resize: none;
+                }
+                .btn-in{
+                    background-color: darkblue;
+                    color: white;
+                    width: 60px;
+                    height: 30px;
+                    border-radius: 10px;
+                    &:hover{
+                        background-color: rgb(4, 4, 180);
+                        text-decoration: underline;
+                    }
+                }
+                .btn-res{
+                    background-color: rgb(150, 1, 1);
+                    color: white;
+                    width: 60px;
+                    height: 30px;
+                    border-radius: 10px;
+                    &:hover{
+                        background-color: rgb(185, 1, 1);
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
 
         .caja-dos {
