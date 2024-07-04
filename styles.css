@@ -238,29 +238,37 @@ main {
             width: 50%;
             text-align: center;
             align-content: center;
-            .formulario{
+
+            .formulario {
                 font-size: 2em;
-                textarea{
+
+                textarea {
                     resize: none;
                 }
-                .btn-in{
+
+                .btn-in {
                     background-color: darkblue;
                     color: white;
-                    width: 60px;
-                    height: 30px;
+                    width: 80px;
+                    height: 40px;
+                    margin: 10px;
                     border-radius: 10px;
-                    &:hover{
+
+                    &:hover {
                         background-color: rgb(4, 4, 180);
                         text-decoration: underline;
                     }
                 }
-                .btn-res{
+
+                .btn-res {
                     background-color: rgb(150, 1, 1);
                     color: white;
-                    width: 60px;
-                    height: 30px;
+                    width: 80px;
+                    height: 40px;
+                    margin: 10px;
                     border-radius: 10px;
-                    &:hover{
+
+                    &:hover {
                         background-color: rgb(185, 1, 1);
                         text-decoration: underline;
                     }
@@ -279,7 +287,7 @@ main {
                 text-align: center;
                 width: 150px;
                 height: 150px;
-                border: 0.5px solid lightgray;
+                /* border: 0.5px solid lightgray; */
                 margin-inline: 45px;
                 opacity: 0.8;
                 text-shadow: 2px 2px black;
@@ -287,9 +295,30 @@ main {
 
                 &:hover {
                     /* box-shadow: 2px 2px gray; */
-                    border: 1px solid white;
+                    /* border: 1px solid white; */
                     transition: 0.5s;
                     opacity: 1;
+                }
+
+                .image-back {
+                    width: 150px;
+                    height: 150px;
+                    border: 1px solid white;
+                    border-radius: 15px;
+                    background-color: white;
+
+                    &:active {
+                        transform: scale(0.9);
+                    }
+                }
+            }
+
+            .image-nrm {
+                width: 150px;
+                height: 150px;
+
+                &:active {
+                    transform: scale(0.9);
                 }
             }
         }
