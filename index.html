@@ -24,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <button><a href="#inicio">^</a></button>
+        <button><a title="Volver al Inicio" href="#inicio">^</a></button>
         <section id="inicio">
             <div class="caja-izquierda">
                 <h1>Guillermo Barrientos</h1>
@@ -47,7 +47,8 @@
             </div>
             <div class="caja-derecha">
                 <img src="./images/perfil.png" alt="perfil personal">
-                <a class="btn-cv" href="./docs/GUILLERMO BARRIENTOS CV.pdf" download="CV Guillermo Barrientos">Descargar
+                <a title="Descargar pdf" class="btn-cv" href="./docs/GUILLERMO BARRIENTOS CV.pdf"
+                    download="CV Guillermo Barrientos">Descargar
                     CV</a>
             </div>
         </section>
@@ -144,29 +145,39 @@
         <section id="contacto">
             <div class="caja-uno">
                 <form class="formulario" action="https://formsubmit.co/d4500d9c0b7c285881afea26faeaeb5a" method="post">
-                    <label for="in-name">Nombre / Empresa:</label>
-                    <input required maxlength="30" id="in-name" name="name" type="text"><br><br>
-                    <label for="in-email">Correo:</label>
-                    <input required maxlength="30" id="in-email" name="mail" type="email"><br><br>
-                    <label for="in-afaire">Asunto:</label>
-                    <select required id="in-afaire" name="afaire" type="text">
-                    <option>Laboral</option>
-                    <option>Personal</option>
-                    <option>Otras</option>
-                   </select><br><br>
-                    <label for="in-message">Mensaje:</label>
-                    <textarea autocomplete="on" cols="50" rows="3" required id="in-message" name="message" required maxlength="120"></textarea><br><br>
+                    <label title="Nombre" for="in-name">Nombre / Empresa:</label>
+                    <input required maxlength="30" id="in-name" name="emisor" type="text"><br><br>
+                    <label title="Su Correo" for="in-email">Correo:</label>
+                    <input required maxlength="30" id="in-email" name="email-emisor" type="email"><br><br>
+                    <label title="Asunto" for="in-afaire">Asunto:</label>
+                    <select required id="in-afaire" name="asunto" type="text">
+                        <option>Laboral</option>
+                        <option>Personal</option>
+                        <option>Otras</option>
+                    </select><br><br>
+                    <label title="Descripción" for="in-message">Mensaje:</label>
+                    <textarea autocomplete="on" cols="50" rows="3" required id="in-message" name="descripcion" required
+                        maxlength="120"></textarea><br><br>
                     <div>
-                        <input class="btn-res" id="in-reset" name="reset" type="reset" value="Limpiar">
-                        <input class="btn-in" id="in-send" name="send" type="submit" value="Enviar">
+                        <input title="borrar contenido" class="btn-res" id="in-reset" name="reset" type="reset"
+                            value="Limpiar">
+                        <input title="enviar correo" class="btn-in" id="in-send" name="send" type="submit"
+                            value="Enviar">
                     </div>
                 </form>
             </div>
             <div class="caja-dos">
-                <div class="contenedor-social"><a href="https://www.linkedin.com/in/guillermo94barrientos/"><img class="image-nrm" src="./icons/linkedin.png" alt="icono enlace a linkedin"></a></div>
-                <div class="contenedor-social"><a href="https://x.com/memo94dev/"><img class="image-nrm" src="./icons/twitter.png" alt="icono enlace a twitter"></a></div>
-                <div class="contenedor-social"><a href="https://github.com/memo94dev/"><img class="image-back" src="./icons/github.png" alt="icono enlace a github"></a></div>
-                <div class="contenedor-social"><a href="https://memo94dev.github.io/socialinks/"><img class="image-back" src="./icons/boton-ver-mas.png" alt="icono enlace para ver más"></a></div>
+                <div class="contenedor-social"><a href="https://www.linkedin.com/in/guillermo94barrientos/"><img
+                            title="Perfil de linkedin" class="image-nrm" src="./icons/linkedin.png"
+                            alt="icono enlace a linkedin"></a></div>
+                <div class="contenedor-social"><a href="https://x.com/memo94dev/"><img title="Perfil de Twitter"
+                            class="image-nrm" src="./icons/twitter.png" alt="icono enlace a twitter"></a></div>
+                <div class="contenedor-social"><a href="https://github.com/memo94dev/"><img
+                            title="Repositorio de Github" class="image-back" src="./icons/github.png"
+                            alt="icono enlace a github"></a></div>
+                <div class="contenedor-social"><a href="https://memo94dev.github.io/socialinks/"><img
+                            title="Ver mas enlaces.." class="image-back" src="./icons/boton-ver-mas.png"
+                            alt="icono enlace para ver más"></a></div>
             </div>
         </section>
     </main>
