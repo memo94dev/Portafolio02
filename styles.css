@@ -16,7 +16,7 @@ header {
 
     div {
         width: 50px;
-        display: inline;
+        /* display: inline; */
 
         p {
             font-size: 3em;
@@ -52,6 +52,7 @@ header {
 
 main {
     color: azure;
+    /* scroll-behavior: smooth; */
 
     button {
         position: fixed;
@@ -66,6 +67,7 @@ main {
 
         &:hover {
             box-shadow: 0 0;
+            translate: 0 2px;
         }
 
         a {
@@ -90,15 +92,28 @@ main {
             width: 50%;
             text-align: center;
             padding: 5px;
+            align-content: center;
 
             h1 {
                 font-size: 3em;
                 padding-bottom: 15px;
+                animation: aparecer 3s 1s linear forwards;
+                opacity: 0;
+
             }
 
-            p {
+            .p-uno {
                 font-size: 1.5em;
+                opacity: 0;
+                animation: aparecer 2s 3s linear forwards;
                 /* width: 40%; */
+
+                }
+                .p-dos{
+                    font-size: 1.5em;
+                    opacity: 0;
+                    animation: aparecer 2s 5s linear forwards;
+                }
 
                 a {
                     color: white;
@@ -109,6 +124,7 @@ main {
                 }
             }
         }
+        
 
         .caja-derecha {
             width: 50%;
@@ -161,6 +177,7 @@ main {
         background-size: cover;
         height: 100vh;
         padding: 15px;
+        align-content: center;
 
         ul {
             text-align: center;
@@ -169,6 +186,12 @@ main {
 
             summary {
                 cursor: pointer;
+            }
+            .about{
+                font-size: 1em;
+                li{
+                    list-style: disc;
+                }
             }
         }
     }
@@ -189,7 +212,7 @@ main {
             width: 250px;
             height: 280px;
             border: 0.5px solid lightgray;
-            margin: 15px;
+            margin: 20px;
             opacity: 0.8;
             text-shadow: 2px 2px black;
             color: white;
@@ -323,7 +346,7 @@ main {
             }
         }
     }
-}
+
 
 footer {
     background-color: darkblue;
@@ -342,5 +365,15 @@ footer {
         &:hover {
             text-decoration: underline;
         }
+    }
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+        translate: 0 -5px;
+    }
+    100%{
+        opacity: 1;
+        translate: 0;
     }
 }
