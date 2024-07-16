@@ -77,7 +77,7 @@ main {
     }
 
     #inicio {
-        background-image: url(./images/profile.jpg);
+        background-image: url(./images/profile.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -171,7 +171,7 @@ main {
 
     #sobre-mi {
         /* width: 100vh; */
-        background-image: url(./images/profile2.jpg);
+        background-image: url(./images/profile2.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -195,7 +195,7 @@ main {
     }
 
     #portafolio {
-        background-image: url(./images/profile3.jpg);
+        background-image: url(./images/profile3.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -249,7 +249,7 @@ main {
     #contacto {
         /* width: 100vh; */
         height: 90vh;
-        background-image: url(./images/profile4.jpg);
+        background-image: url(./images/profile4.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
