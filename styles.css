@@ -90,7 +90,7 @@ main {
         color: white;
         display: flex;
         flex-direction: column-reverse;
-        
+
         .caja-izquierda {
             /* width: 50%; */
             text-align: center;
@@ -245,7 +245,7 @@ main {
         align-content: center;
 
         .caja-uno {
-            height: 50vh;
+            height: 60vh;
             text-align: center;
             /* align-content: center; */
             color: white;
@@ -290,7 +290,7 @@ main {
         }
 
         .caja-dos {
-            height: 50vh;
+            height: 30vh;
             display: flex;
             justify-content: center;
             align-content: center;
