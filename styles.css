@@ -90,6 +90,7 @@ main {
         color: white;
         display: flex;
         flex-direction: column-reverse;
+        justify-content: start;
 
         .caja-izquierda {
             /* width: 50%; */
