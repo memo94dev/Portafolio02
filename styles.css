@@ -139,8 +139,8 @@
 
             img {
                 border-radius: 50%;
-                width: 200px;
-                height: 200px;
+                width: 190px;
+                height: 190px;
                 border: 1px solid white;
                 display: inline-block;
                 margin-bottom: 10px;
@@ -225,8 +225,8 @@
 
             img {
                 width: 100px;
-                height: 120px;
-                margin: 5px;
+                height: 110px;
+                margin: 3px;
             }
 
             p {
