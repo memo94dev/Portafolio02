@@ -1,4 +1,4 @@
-@media (max-width: 722px) {
+@media (max-width: 800px) {
 
     * {
         padding: 0;
@@ -24,6 +24,7 @@
             p {
                 font-size: 1.5em;
                 color: white;
+                font-weight: bold;
             }
         }
 
@@ -108,7 +109,7 @@
                 }
 
                 .p-uno {
-                    font-size: 1.2em;
+                    font-size: 1.1em;
                     opacity: 0;
                     animation: aparecer 2s 3s linear forwards;
                     /* width: 40%; */
@@ -116,7 +117,7 @@
                 }
 
                 .p-dos {
-                    font-size: 1.2em;
+                    font-size: 1.1em;
                     opacity: 0;
                     animation: aparecer 2s 5s linear forwards;
                 }
@@ -139,8 +140,8 @@
 
             img {
                 border-radius: 50%;
-                width: 190px;
-                height: 190px;
+                width: 175px;
+                height: 175px;
                 border: 1px solid white;
                 display: inline-block;
                 margin-bottom: 10px;
@@ -274,6 +275,7 @@
                     height: 40px;
                     margin: 5px;
                     border-radius: 10px;
+                    cursor: pointer;
 
                     &:active {
                         background-color: rgb(4, 4, 180);
@@ -288,6 +290,7 @@
                     height: 40px;
                     margin: 5px;
                     border-radius: 10px;
+                    cursor: pointer;
 
                     &:active {
                         background-color: rgb(185, 1, 1);
@@ -365,7 +368,7 @@
 
 
 
-@media (min-width: 723px) and (max-width: 1019px){
+@media (min-width: 801px) and (max-width: 1019px){
 
     * {
         padding: 0;
@@ -483,6 +486,7 @@
                 font-size: 1em;
                 opacity: 0;
                 animation: aparecer 2s 5s linear forwards;
+                margin-block: 5px;
             }
 
             a {
@@ -572,22 +576,22 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    height: 90%;
+    height: 100vh;
 
     .cotenedor-portafolio {
         text-align: center;
-        width: 200px;
-        height: 230px;
+        width: 180px;
+        height: 210px;
         border: 1px solid lightgray;
-        margin: 15px;
+        margin: 10px;
         /* opacity: 0.8; */
         text-shadow: 1px 1px black;
         color: white;
 
         img {
-            width: 140px;
-            height: 160px;
-            margin: 5px;
+            width: 130px;
+            height: 140px;
+            margin: 2px;
         }
 
         a {
@@ -629,6 +633,7 @@
                 height: 40px;
                 margin: 10px;
                 border-radius: 10px;
+                cursor: pointer;
 
                 &:hover {
                     background-color: rgb(4, 4, 180);
@@ -643,6 +648,7 @@
                 height: 40px;
                 margin: 10px;
                 border-radius: 10px;
+                cursor: pointer;
 
                 &:hover {
                     background-color: rgb(185, 1, 1);
@@ -833,6 +839,7 @@ footer {
                     font-size: 1.5em;
                     opacity: 0;
                     animation: aparecer 2s 5s linear forwards;
+                    margin-block: 5px;
                 }
 
                 a {
@@ -995,6 +1002,7 @@ footer {
                     height: 40px;
                     margin: 10px;
                     border-radius: 10px;
+                    cursor: pointer;
 
                     &:hover {
                         background-color: rgb(4, 4, 180);
@@ -1009,6 +1017,7 @@ footer {
                     height: 40px;
                     margin: 10px;
                     border-radius: 10px;
+                    cursor: pointer;
 
                     &:hover {
                         background-color: rgb(185, 1, 1);
