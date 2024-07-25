@@ -314,7 +314,8 @@
             height: 30vh;
             display: flex;
             justify-content: center;
-            align-content: center;
+            align-content: end;
+            padding: 5px;
             /* align-items: center; */
             /* flex-wrap: wrap; */
 
