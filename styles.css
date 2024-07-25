@@ -88,7 +88,7 @@
             background-size: cover;
             /* width: 100vh; */
             height: 95vh;
-            padding: 25px;
+            padding: 15px;
             text-shadow: 2px 2px black;
             color: white;
             display: flex;
@@ -98,7 +98,7 @@
             .caja-izquierda {
                 /* width: 50%; */
                 text-align: center;
-                padding: 5px;
+                /* padding: 5px; */
                 align-content: center;
 
                 h1 {
