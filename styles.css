@@ -193,6 +193,9 @@
             summary {
                 cursor: pointer;
             }
+            span{
+                font-size: 0.8em;
+            }
 
             .about {
                 font-size: 1em;
@@ -211,6 +214,7 @@
         align-items: center;
         flex-wrap: wrap;
         height: 100dvh;
+        overflow: hidden;
 
         .cotenedor-portafolio {
             text-align: center;
@@ -254,6 +258,7 @@
         display: flex;
         flex-direction: column;
         align-content: center;
+        overflow: hidden;
 
         .caja-uno {
             height: 60vh;
@@ -732,6 +737,9 @@ footer {
         box-sizing: border-box;
         scroll-behavior: smooth;
     }
+    body{
+        background-color: lightblue;
+    }
 
     header {
         padding-inline: 15px;
@@ -941,7 +949,7 @@ footer {
             width: 230px;
             height: 260px;
             border: 0.5px solid lightgray;
-            margin: 10px;
+            margin: 15px;
             opacity: 0.8;
             text-shadow: 2px 2px black;
             color: white;
