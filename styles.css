@@ -120,6 +120,7 @@
                     font-size: 1.1em;
                     opacity: 0;
                     animation: aparecer 2s 5s linear forwards;
+                    margin-top: 10px;
                 }
 
                 a {
@@ -215,7 +216,7 @@
             width: 140px;
             height: 160px;
             border: 0.5px solid lightgray;
-            margin: 12px;
+            margin: 10px;
             /* opacity: 0.8; */
             text-shadow: 2px 2px black;
             color: white;
