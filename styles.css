@@ -208,6 +208,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         height: 100dvh;
 
@@ -576,6 +577,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     height: 100vh;
 
@@ -936,10 +938,10 @@ footer {
 
         .cotenedor-portafolio {
             text-align: center;
-            width: 250px;
-            height: 280px;
+            width: 230px;
+            height: 260px;
             border: 0.5px solid lightgray;
-            margin: 15px;
+            margin: 10px;
             opacity: 0.8;
             text-shadow: 2px 2px black;
             color: white;
@@ -954,7 +956,7 @@ footer {
             img {
                 width: 150px;
                 height: 180px;
-                margin: 5px;
+                margin: 3px;
 
                 /* opacity: 0.8; */
                 &:hover {
