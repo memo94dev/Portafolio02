@@ -315,19 +315,22 @@
         .caja-dos {
             height: 30vh;
             display: flex;
-            justify-content: center;
-            align-content: end;
-            padding: 5px;
+            /* justify-content: center; */
+            /* align-content: end; */
+            /* padding: 10px; */
+            margin: auto;
             /* align-items: center; */
             /* flex-wrap: wrap; */
 
             .contenedor-social {
+                display: inline;
                 text-align: center;
                 align-items: center;
                 width: 50px;
                 height: 50px;
                 /* border: 0.5px solid lightgray; */
-                margin: 18px;
+                margin-inline: 18px;
+                margin-block: auto;
                 /* opacity: 0.8; */
                 text-shadow: 2px 2px black;
                 color: white;
