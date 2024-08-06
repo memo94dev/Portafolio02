@@ -204,6 +204,25 @@
                 font-size: 1em;
             }
         }
+        p{
+            text-align: center;
+            margin-top: 20px;
+            .vermas{
+                justify-content: center;
+                color: white;
+                text-align: center;
+                text-shadow: 2px 2px black;
+                font-size: 1em;
+                margin: 0 auto;
+                width: 15px;
+                height: 12px;
+                background-color: chocolate;
+                border: 1px solid white;
+                border-radius: 5px;
+                padding: 5px;
+                text-decoration: none;
+            }
+        }
     }
 
     #portafolio {
@@ -584,6 +603,21 @@
             font-size: 0.8em;
         }
     }
+    p{
+        text-align: center;
+        margin-top: 20px;
+        .vermas{
+            justify-content: center;
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px black;
+            font-size: 1.2em;
+            margin: 0 auto;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
 }
 #portafolio {
     background-image: url(./images/profile3.webp);
@@ -940,6 +974,21 @@ footer {
 
             .about {
                 font-size: 1em;
+            }
+        }
+        p{
+            text-align: center;
+            margin-top: 20px;
+            .vermas{
+                justify-content: center;
+                color: white;
+                text-align: center;
+                text-shadow: 2px 2px black;
+                font-size: 1.5em;
+                margin: 0 auto;
+                &:hover{
+                    text-decoration: none;
+                }
             }
         }
     }
