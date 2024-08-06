@@ -205,7 +205,8 @@
             }
         }
         p{
-            text-align: center;
+            display: none;
+            /* text-align: center;
             margin-top: 20px;
             .vermas{
                 justify-content: center;
@@ -221,7 +222,7 @@
                 border-radius: 5px;
                 padding: 5px;
                 text-decoration: none;
-            }
+            } */
         }
     }
 
