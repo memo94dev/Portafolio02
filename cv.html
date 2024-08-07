@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <!-- Google Analytics Tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VH6YN4L1LY"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -10,76 +11,13 @@
 
         gtag('config', 'G-VH6YN4L1LY');
     </script>
+    <!-- Insignia de Linkedin -->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/cv.css">
     <title>CV Guillermo Barrientos</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: darkblue;
-            color: white;
-            height: 10vh;
-            justify-content: center;
-            display: flex;
-            h1{
-                align-content: center;
-            }
-
-            a {
-                position: fixed;
-                background-color: rgb(6, 6, 192);
-                text-decoration: none;
-                color: white;
-                width: 80px;
-                height: 40px;
-                margin: 10px;
-                border-radius: 10px;
-                cursor: pointer;
-                text-align: center;
-                align-content: center;
-                right: 15px;
-                top: 2px;
-                box-shadow: 2px 2px black;
-
-                &:hover {
-                    background-color: rgb(21, 21, 221);
-                    text-decoration: underline;
-                }
-            }
-        }
-        @media (max-width: 800px){
-            h1{
-                font-size: 1.2em;
-            }
-            a {
-                position: sticky;
-                background-color: rgb(6, 6, 192);
-                text-decoration: none;
-                color: white;
-                width: 50px;
-                height: 30px;
-                margin: 5px;
-                border-radius: 10px;
-                cursor: pointer;
-                text-align: center;
-                align-content: center;
-                right: 15px;
-                top: 2px;
-                box-shadow: 2px 2px black;
-
-                &:active {
-                    background-color: rgb(21, 21, 221);
-                    text-decoration: underline;
-                }
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -87,7 +25,17 @@
         <a href="./index.html#sobre-mi">Volver</a>
         <h1>Guillermo José Barrientos Genez</h1>
     </header>
-    <embed src="./docs/GUILLERMO BARRIENTOS CV.pdf#zoom=50&#page=1" type="application/pdf" width="100%" height="600px">
+    <main>
+        <section class="embebido">
+        <embed src="./docs/GUILLERMO BARRIENTOS CV.pdf#zoom=75&#page=1&navpanes=0" type="application/pdf" width="100%"
+            height="600px">
+        </section>
+        <section class="linke">
+            <div class="badge-base LI-profile-badge contain" data-locale="es_ES" data-size="large" data-theme="light"
+                data-type="HORIZONTAL" data-vanity="memo94dev" data-version="v1"><a class="badge-base__link LI-simple-link"
+                    href="https://py.linkedin.com/in/memo94dev?trk=profile-badge">Guillermo Barrientos</a></div>
+        </section>
+    </main>
 </body>
 
 </html>
