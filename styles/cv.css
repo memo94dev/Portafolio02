@@ -11,6 +11,7 @@ body {
         background-color: darkblue;
         color: white;
         height: 10vh;
+        /* width: 1348px; */
         justify-content: center;
         display: flex;
 
@@ -40,24 +41,30 @@ body {
             }
         }
     }
-    main{
+
+    main {
         display: flex;
+
         .embebido {
             width: 1000px;
         }
-        .linke{
+
+        .linke {
             width: 480px;
-            height: 100vh;
+            /* height: 100vh; */
             text-align: center;
-            .contain{
+
+            .contain {
                 margin: auto;
                 background-color: darkcyan;
                 padding-inline: 50px;
                 padding-bottom: 20px;
-                a{
+
+                a {
                     color: white;
                     font-size: 1.5em;
-                    &:hover{
+
+                    &:hover {
                         text-decoration: none;
                     }
                 }
@@ -68,29 +75,77 @@ body {
 
 
 @media (max-width: 900px) {
-    h1 {
-        font-size: 1.2em;
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center
+    }
+    header {
+        width: 480px;
+        height: 10vh;
+        justify-content: center;
+        text-align: center;
+
+        h1 {
+            font-size: 1.2em;
+        }
+
+        /* a {
+            position: absolute;
+            background-color: rgb(6, 6, 192);
+            text-decoration: none;
+            color: white;
+            width: 50px;
+            height: 30px;
+            margin: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            align-content: center;
+            right: 15px;
+            top: 2px;
+            box-shadow: 2px 2px black;
+
+            &:active {
+                background-color: rgb(21, 21, 221);
+                text-decoration: underline;
+            }
+        } */
     }
 
-    a {
-        position: sticky;
-        background-color: rgb(6, 6, 192);
-        text-decoration: none;
-        color: white;
-        width: 50px;
-        height: 30px;
-        margin: 5px;
-        border-radius: 10px;
-        cursor: pointer;
-        text-align: center;
-        align-content: center;
-        right: 15px;
-        top: 2px;
-        box-shadow: 2px 2px black;
+    main {
+        display: flex;
+        flex-direction: column-reverse;
 
-        &:active {
-            background-color: rgb(21, 21, 221);
-            text-decoration: underline;
+        .embebido {
+            width: 480px !important;
+        }
+
+        .linke {
+            width: 480px;
+            height: 310px;
+            text-align: center;
+            background-color: darkcyan;
+            background-image: url(./../images/linkedin.PNG);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-left: 30px;
+
+            .contain {
+                display: none;
+
+                /* padding-inline: 50px;
+                padding-bottom: 20px; */
+                a {
+                    color: white;
+                    font-size: 1.5em;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
         }
     }
 }
