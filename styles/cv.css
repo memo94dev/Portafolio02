@@ -24,8 +24,8 @@ body {
             background-color: rgb(6, 6, 192);
             text-decoration: none;
             color: white;
-            width: 80px;
-            height: 40px;
+            width: 75px;
+            height: 35px;
             margin: 10px;
             border-radius: 10px;
             cursor: pointer;
@@ -83,15 +83,15 @@ body {
     }
     header {
         width: 480px;
-        height: 10vh;
+        height: 5vh;
         justify-content: center;
         text-align: center;
 
         h1 {
-            font-size: 1.2em;
+            font-size: 1em;
         }
 
-        /* a {
+        a {
             position: absolute;
             background-color: rgb(6, 6, 192);
             text-decoration: none;
@@ -111,7 +111,7 @@ body {
                 background-color: rgb(21, 21, 221);
                 text-decoration: underline;
             }
-        } */
+        }
     }
 
     main {

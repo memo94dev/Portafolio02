@@ -635,7 +635,7 @@
     .cotenedor-portafolio {
         text-align: center;
         width: 180px;
-        height: 210px;
+        height: 200px;
         border: 1px solid lightgray;
         margin: 5px;
         /* opacity: 0.8; */
@@ -643,8 +643,8 @@
         color: white;
 
         img {
-            width: 130px;
-            height: 140px;
+            width: 125px;
+            height: 135px;
             margin: 2px;
         }
 
