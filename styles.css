@@ -968,6 +968,8 @@ footer {
             text-shadow: 2px 2px black;
             font-size: 1.5em;
             list-style: none;
+            background-color: rgba(210, 105, 30, 0.336);
+            border: 5px solid rgba(204, 128, 74, 0.185);
 
             summary {
                 cursor: pointer;
