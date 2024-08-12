@@ -244,7 +244,7 @@
             width: 140px;
             height: 160px;
             border: 0.5px solid lightgray;
-            margin: 8px;
+            margin: 10px;
             /* opacity: 0.8; */
             text-shadow: 2px 2px black;
             color: white;
@@ -254,8 +254,8 @@
             }
 
             img {
-                width: 90px;
-                height: 100px;
+                width: 100px;
+                height: 110px;
                 margin: 3px;
             }
 
@@ -634,8 +634,8 @@
 
     .cotenedor-portafolio {
         text-align: center;
-        width: 180px;
-        height: 200px;
+        width: 170px;
+        height: 190px;
         border: 1px solid lightgray;
         margin: 5px;
         /* opacity: 0.8; */
@@ -643,8 +643,8 @@
         color: white;
 
         img {
-            width: 125px;
-            height: 135px;
+            width: 120px;
+            height: 130px;
             margin: 2px;
         }
 
