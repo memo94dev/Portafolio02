@@ -492,7 +492,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         /* width: 100vh; */
-        height: 90svh;
+        height: 90vh;
         padding: 10px;
         text-shadow: 1px 1px black;
         color: white;
@@ -672,6 +672,7 @@
         width: 50%;
         text-align: center;
         align-content: center;
+        padding: 5px;
 
         .formulario {
             font-size: 1.5em;
